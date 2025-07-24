@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growflix-Todos os vídeos da Growdev em um só lugar</title>
+
+    <!--Link Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="assets/libs/bootstrap-5.3.7/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/libs/icons/bootstrap-icons-1.13.1/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <header id="img-fundo" class="d-flex flex-column min-vh-100">
+      <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/image/logo-growflix.svg"
+              class="img-fluid"
+              alt="logo-growflix"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#growcast">Growcast [episodios]</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#webinar">Webinar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jornadaUX-UI">Jornada UX/UI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#diversos">Diversos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container flex-grow-1 d-flex align-items-end">
+        <div class="row align-items-end">
+          <div class="col-12">
+            <small class="fw-bold">PODCAST</small>
+            <p class="display-1 fw-bold">CRESCIMENTO</p>
+          </div>
+          <div class="col-12 mb-5">
+            <button
+              type="button"
+              class="btn btn-light"
+              id="btn-assitir"
+              data-bs-toggle="modal"
+              data-bs-target="#modalVideo"
+            >
+              Assistir
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="modalVideo"
+          tabindex="-1"
+          aria-labelledby="modalVideoLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+              <div class="modal-header border-0">
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Fechar"
+                ></button>
+              </div>
+              <div class="modal-body p-0">
+                <div class="ratio" style="--bs-aspect-ratio: 75%">
+                  <iframe id="iframeVideo" src="" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="growcast">
+        <div class="container">
+          <div class="row" id="inEpisodios">
+            <div class="col-12 ps-4 pt-3">
+              <p class="pt-1 fw-bold">Growcast [Episódios]</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="webinar">
+        <div class="container">
+          <div class="row" id="inWebinar">
+            <div class="col-12 ps-4 pt-3">
+              <p class="pt-3 fw-bold">Webinar</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="jornadaUX-UI">
+        <div class="container">
+          <div class="row" id="inUxUi">
+            <div class="col-12 ps-4 pt-3">
+              <p class="pt-3 fw-bold">Jornada UX/UI</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="diversos">
+        <div class="container">
+          <div class="row" id="inDiversos">
+            <div class="col-12 ps-4 pt-3">
+              <p class="pt-3 fw-bold">Diversos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+   
+    <footer class="ps-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 pt-4">
+            <p>Duvidas? ligue 0800 591 8942</p>
+          </div>
+          <div class="col-6 col-sm-3 pt-4">
+            <p>Perguntas frequentes</p>
+            <p>Relações com investidores</p>
+            <p>Formas de assistir</p>
+            <p>informações corporativas</p>
+            <p>so na Growflix</p>
+          </div>
+
+          <div class="col-6 col-sm-3 pt-4">
+            <p>Central de ajuda</p>
+            <p>Carreiras</p>
+            <p>Termos de uso</p>
+            <p>Entre em contato</p>
+          </div>
+          <div class="col-6 col-sm-3 pt-5 pt-sm-4">
+            <p>Conta</p>
+            <p>Resgatar cartão pré-pago</p>
+            <p>Privacidade</p>
+            <p>Teste de velocidade</p>
+          </div>
+          <div class="col-6 col-sm-3 pt-5 pt-sm-4">
+            <p>Media center</p>
+            <p>Comprar cartão pré-pago</p>
+            <p>Preferências de cookies</p>
+            <p>Avisos legais</p>
+          </div>
+          <div class="col-6 pt-5">
+            <p>Growflix Growdev</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/libs/bootstrap-5.3.7/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

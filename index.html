@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growflix-Todos os vídeos da Growdev em um só lugar</title>
+    <link rel="shortcut icon" href="assets/image/logo-growflix.svg" type="image/x-icon">
+    <!--Link Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="assets/libs/bootstrap-5.3.7/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid min-vh-100 d-flex flex-column justify-content-center" id="index">
+      <div class="row">
+        <div class="col position-absolute top-0 start-0 p-3">
+          <img src="assets/image/logo-growflix.svg" alt="logo" />
+        </div>
+      </div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-6 col-sm-12 text-center">
+          <p id="apresentacao" class="display-1 fw-bold" >Growcasts, webinar e muito mais. sem limites</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <p class="fs-4 fw-normal">Assista onde quiser</p>
+        </div>
+        <div class="col-12 text-center pb-5">
+          <p class="fs-5 fw-lighter">Pronto para assistir</p>
+        </div>
+        <div class="col-12 text-center pb-5">
+          <a href="home.html" class="btn-vamos">Vamos-lá</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="aproveitaNaTv" class="container-fluid pt-2">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-sm-6 text-center pt-4">
+            <h1>Aproveite na tv.</h1>
+            <p>
+              Assista em Smart TVs, PlayStation, Xbox, Chromecast e outros
+              dispositivos
+            </p>
+          </div>
+          <div class="col-12 col-sm-6">
+            <img
+              src="assets/image/tela-tv-dia-dev.png"
+              class="img-fluid"
+              alt="dia-de-um-dev"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="AssitaQuandoQuiser" class="container-fluid">
+        <div class="row justify-content-center align-items-center g-0">
+          <div class="col-12 col-sm-6 pt-4">
+            <img
+              src="assets/image/devices.png"
+              class="img-fluid"
+              alt="dispositivos-de-tela"
+            />
+          </div>
+          <div class="col-sm-6 ms-md-0 text-center">
+            <h1>Assista quando quiser</h1>
+            <p>
+              Assista no celular, tablet, Smart TV ou nootebook sem pagar a mais
+              por isso.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="PerguntasFrequentes" class="container-fluid min-vh-100">
+        <div class="row justify-content-center">
+          <div class="col-12 pt-5 text-center">
+            <h1>Perguntas frequentes</h1>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item btn-accordion">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed btn-accordion"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    O que é a Growflix
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">Placeholder content for this</div>
+                </div>
+              </div>
+
+              <div class="accordion-item btn-accordion">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed btn-accordion"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Quanto custa a Growflix?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.</code>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item btn-accordion">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed btn-accordion"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Onde posso Assistir?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item btn-accordion">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed btn-accordion"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    O que eu posso assistir na Growflix?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item btn-accordion">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed btn-accordion"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    A Growflix é adequada para crianças?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center pt-5">
+            <p>Pronto para assistir?</p>
+          </div>
+          <div class="col text-center">
+            <a href="home.html" class="btn-vamos">Vamos-lá</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 pt-4">
+            <p>Duvidas? ligue 0800 591 8942</p>
+          </div>
+          <div class="col-6  col-sm-3 pt-4">
+            <p>Perguntas frequentes</p>
+            <p>Relações com investidores</p>
+            <p>Formas de assistir</p>
+            <p>informações corporativas</p>
+            <p>so na Growflix</p>
+          </div>
+
+          <div class="col-6 col-sm-3 pt-4">
+            <p>Central de ajuda</p>
+            <p>Carreiras</p>
+            <p>Termos de uso</p>
+            <p>Entre em contato</p>
+          </div>
+          <div class="col-6 col-sm-3 pt-5 pt-sm-4">
+            <p>Conta</p>
+            <p>Resgatar cartão pré-pago</p>
+            <p>Privacidade</p>
+            <p>Teste de velocidade</p>
+          </div>
+          <div class="col-6 col-sm-3 pt-5  pt-sm-4">
+            <p>Media center</p>
+            <p>Comprar cartão pré-pago</p>
+            <p>Preferências de cookies</p>
+            <p>Avisos legais</p>
+          </div>
+          <div class="col-6 pt-5">
+            <p>Growflix Growdev</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/libs/bootstrap-5.3.7/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

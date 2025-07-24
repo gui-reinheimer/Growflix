@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --cor-btn: #B6060F;
+  --bg-color: #000000;
+  --cor-fonte: #ffffff;
+}
+
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--cor-fonte);
+}
+
+
+
+
+#index {
+  background-image: url(../assets/image/banner-initial.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: var(--cor-fonte);
+  font-weight: bolder;
+}
+
+header img {
+  width: 100px;
+  padding-top: 10px;
+}
+
+
+#img-fundo {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+section {
+  color: var(--cor-fonte);
+  background-color: var(--bg-color);
+  border-bottom: 3px solid #515C6F;
+}
+
+.btn-vamos{
+  border: 1px solid #B6060F;
+  border-radius: 5px;
+  padding: 20px 30px;
+  background-color: var(--cor-btn);
+  color: var(--cor-fonte);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+.btn-vamos:hover {
+  border: 1px solid #ff0310;
+  border-radius: 5px;
+  background-color: #86040a;
+  color: var(--cor-fonte);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+@media (max-width: 576px) {
+  .btn-vamos {
+    padding: 15px 20px;
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 576px) {
+  .btn-vamos:hover {
+    padding: 15px 20px;
+    font-size: 1.2em;
+  }
+}
+
+.btn-accordion {
+  background-color: #303030;
+  color: var(--cor-fonte);
+}
+
+.accordion-button::after {
+  content: "";
+  background-image: url(../assets/image/add.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: auto;
+}
+
+footer {
+  background-color: var(--bg-color);
+}
+footer p {
+  color: #858585;
+}
+
+.video-card {
+  overflow: hidden;
+  max-height: 150px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.video-card:hover {
+  transform: translateY(20px) translateX(50px) scale(1.3);
+  max-height: 800px;
+  background-color: var(--bg-color);
+}
+.video-card:hover p {
+  padding-left: 20px;
+  font-weight: 200;
+}
+
+.video-card-diversos {
+  overflow: hidden;
+  max-height: 150px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.video-card-diversos:hover {
+  transform: translateY(20px) translateX(50px) scale(1.3);
+  max-height: 800px;
+  background-color: var(--bg-color);
+}
+
+.video-card-diversos:hover p {
+  padding-left: 20px;
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
